@@ -1,0 +1,13 @@
+export ZSH_DIR=$HOME/.zsh
+
+case ${OSTYPE} in
+  darwin*)
+    # Mac の設定
+    ;;
+  linux*)
+    # Linux の設定
+    ;;
+esac
+
+[ -f $ZSH_DIR/peco ] && . $ZSH_DIR/peco
+[ -f $ZSH_DIR/oh-my-zsh ] && . $ZSH_DIR/oh-my-zsh

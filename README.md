@@ -18,3 +18,5 @@ vim ~/.vimrc
 ## tig
 
 brew install tig
+
+## MultipleCursorsFind 追加

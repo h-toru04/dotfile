@@ -1,0 +1,11 @@
+" 入力補完機能
+NeoBundle 'git://github.com/Shougo/neocomplcache.git'
+
+" indentの見える化
+NeoBundle 'nathanaelkane/vim-indent-guides'
+
+" MultipleCursorsFind
+NeoBundle 'terryma/vim-multiple-cursors'
+
+" solarized カラースキーム設定
+NeoBundle 'altercation/vim-colors-solarized'

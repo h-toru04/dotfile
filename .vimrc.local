@@ -37,6 +37,11 @@ endif
 "行番号表示
 set nu
 
+"タブの設定
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 "タブ、空白、改行の可視化
 set list
 set listchars=tab:>.,trail:_,eol:↲,extends:>,precedes:<,nbsp:%

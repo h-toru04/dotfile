@@ -1,4 +1,7 @@
 export ZSH_DIR=$HOME/.zsh
+export VIM_DIR=$HOME/.vim
+
+# aliases
 
 case ${OSTYPE} in
   darwin*)

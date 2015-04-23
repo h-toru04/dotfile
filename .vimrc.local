@@ -52,18 +52,11 @@ set listchars=tab:>.,trail:_,eol:↲,extends:>,precedes:<,nbsp:%
 " 改行時に前の行のインデントを継続する
 set autoindent
 
-
 "--------------------
 " syntax highlight
 "--------------------
 syntax on
-"" autocmd [group_name] event_name filepattern [nested] handler
-autocmd BufNewFile,BufRead *.json set ft=javascript " .json as javascript
-autocmd BufNewFile,BufRead *.as set ft=javascript " .as as javascript
-autocmd BufNewFile,BufRead *.class set ft=php       " .class as php
-autocmd BufNewFile,BufRead *.ctp set filetype=php   " .ctp as php
-autocmd BufNewFile,BufRead *.hbs set filetype=html   " .hbs as html
-autocmd BufNewFile,BufRead *.erb set filetype=html   " .erb as html
+source $VIM_DIR/syntax/filetype.vim
 source $VIMRUNTIME/macros/matchit.vim               " matchit
 let php_sql_query=1                                 " sql in php
 

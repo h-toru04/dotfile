@@ -1,5 +1,4 @@
 
-
 ## install
 
  - 以下を.zshrcに追記
